@@ -7,9 +7,9 @@
 header{
     background-color: rgba(0, 0, 0, 0.623);
     margin-top: 1em;
-    margin-left: 2%;
-    margin-right: 2%;
+    max-width: 1500px;
     padding: 6px 0px;
+    margin: auto;
 }
 
 #menu{
@@ -65,9 +65,11 @@ main{
 
 #main-principal{
     background-image: url(imagens/cozinha.jpeg);
-    width: 94.8vw;
+    background-repeat: no-repeat;
+    max-width: 1500px;
     height: 600px;
     opacity: 0.9;
+    margin: auto;
 }
 
 #textos-principal{
@@ -85,7 +87,7 @@ main{
     padding-bottom: 20px;
 }
 
-#textos-principal >button{
+#textos-principal > button{
     font-size: 1.5em;
     background-color: orange;
     color: white;
@@ -93,54 +95,173 @@ main{
     padding: 8px;
 }
 
-#main-corpo-parte1{
+#main-corpo{
     position: relative;
     background-color: white;
     margin: auto;
-    margin-top: -30px;
-    max-width: 1300px;
+    margin-top: -20px;
+    max-width: 1100px;
     box-shadow: 1px -1px 10px black;
+}
+
+#main-corpo-parte1{
     display: flex;
+    justify-content: space-around;
 }
 
 #main-corpo-parte1-esquerda{
-    height: 400px;
-    background-image: url(imagens/utensilios_2.JPG);
-    background-repeat: no-repeat;
-    margin-left: 40px;
+    background-image: url(imagens/utensilios_4.jpg);
+    background-position: left bottom;
+    height: 280px;
+    width: 500px;
+    margin-top: 15px;
 }
 
 #main-corpo-parte1-esquerda-textos{
-    color: rgb(12, 9, 6);
-    padding-top: 100px;
-    padding-left: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 6px black;
 }
 
-#main-corpo-parte1-esquerda-textos > h1{
-    padding-bottom: 20px;
-}
-
-#main-corpo-parte1-esquerda-textos > p{
-    padding-bottom: 20px;
+#main-corpo-parte1-esquerda-textos p:last-child{
+    margin-top: 60px;
 }
 
 #main-corpo-parte1-direita{
-    margin-left: 190px;
-    height: 400px;
-    background-image: url(imagens/utensilios_2.JPG);
-    background-repeat: no-repeat;
+    background-image: url(imagens/utensilios_5.jpg);
+    height: 280px;
+    width: 500px;
+    margin-top: 15px;
 }
 
 #main-corpo-parte1-direita-textos{
-    color: rgb(12, 9, 6);
-    padding-top: 100px;
+    margin-top: 60px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}
+
+#main-corpo-parte1-direita-textos p:last-child{
+    margin-top: 60px;
+}
+
+#main-corpo-parte2-titulo h3{
+    margin-top: 60px;
+    margin-left: 25px;
+    font-size: 1.5em;
+}
+
+#main-corpo-parte2-itens{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#main-corpo-parte2-itens div{
+    padding: 10px;
+}
+
+#main-corpo-parte2-itens1 img{
+    width: 250px;
+}
+
+#main-corpo-parte2-itens2 img{
+    width: 250px;
+}
+
+#main-corpo-parte2-itens3 img{
+    width: 250px;
+}
+
+#main-corpo-parte2-itens4 img{
+    width: 250px;
+}
+
+#main-corpo-parte2-banner{
+    margin-left: 22px;
+    background-image: url(imagens/cozinha_1.jpg);
+    background-position: center center;
+    width: 1060px;
+    height: 250px;
+}
+
+#main-corpo-parte2-banner-textos{
+    color: white;
+    text-shadow: 1px 1px 6px black;
     padding-left: 20px;
+    padding-top: 40px;
 }
 
-#main-corpo-parte1-direita-textos > h1{
+#main-corpo-parte2-banner-textos p{
+    font-size: 1.2em;
+    padding: 20px 0;
+}
+
+#main-corpo-parte2-banner-textos button{
+    font-size: 1.1em;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+#main-corpo-parte3{
+    margin: 40px 0;
+}
+
+#main-corpo-parte3 h3{
+    margin-left: 21px;
+    font-size: 1.5em;
+}
+
+#main-corpo-parte3-itens{
+    display: flex;
+    margin-left: 20px;
+}
+
+#main-corpo-parte3-itens1{
+    display: flex;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+#main-corpo-parte3-itens1-textos{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#main-corpo-parte3-itens1-textos h2{
     padding-bottom: 20px;
 }
 
-#main-corpo-parte1-direita-textos > p{
+#main-corpo-parte3-itens1-textos p:last-child{
+    margin-top: 20px;
+}
+
+#main-corpo-parte3-itens2{
+    display: flex;
+    margin-left: 6px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+#main-corpo-parte3-itens2-textos{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#main-corpo-parte3-itens2-textos h2{
     padding-bottom: 20px;
+}
+
+#main-corpo-parte3-itens2-textos p:last-child{
+    margin-top: 20px;
+}
+
+#main-corpo-parte3-itens1 img{
+    width: 200px;
+}
+
+#main-corpo-parte3-itens2 img{
+    width: 200px;
 }
